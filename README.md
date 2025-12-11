@@ -5,3 +5,9 @@ Desenvolvedores
 Leandro Carvalho
 Luiz Henrique
 Vitoria Karoline
+
+Tema 
+Loja de roupa infantil
+
+Nome da Loja 
+Baby Store
