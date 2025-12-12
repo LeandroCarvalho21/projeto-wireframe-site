@@ -74,5 +74,36 @@ nav ul li a:hover {
 
 }
 
+.nova_colecao {
+    background-color: #f7c8d0;
+    display: flex;
+    flex-direction: row;
+    padding: 32px 64px;
+}
+
+.bt_nova_colecao {
+    background-color: #d9b77c;
+    padding: 20px;
+    margin: 0px 64px;
+
+}
+
+.img_colecao{
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+}
 
 
+button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+/* 
+aside{
+    background-color: #7c8fd9;
+    display: inline;
+} */
