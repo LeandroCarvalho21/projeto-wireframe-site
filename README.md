@@ -10,4 +10,4 @@ Tema
 Loja de roupa infantil
 
 Nome da Loja 
-Baby Store
+Doce Infancia
