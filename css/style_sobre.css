@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f3ea;
+    color: #1f2933;
+}
+
+/* HEADER */
+.header {
+    background: #fff3e6;
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #d9b77c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1f2933;
+    font-size: 14px;
+}
+
+.icons {
+    font-size: 18px;
+}
+
+/* HERO */
+.hero {
+    background: #f8cfd4;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 14px;
+    color: #374151;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 80px;
+    gap: 40px;
+}
+
+
+.text {
+    max-width: 480px;
+}
+
+.text h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #374151;
+}
+
+/* IMAGE */
+.miranha img {
+    width: 450px;
+    height: 560px;
+    object-fit: cover; /* mantém proporção sem distorcer */
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+    .content {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .image img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+/* ===== NOSSOS VALORES ===== */
+.values {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 80px 60px;
+}
+
+.values h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.values .subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 60px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.value-card {
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.value-card .icon {
+    width: 60px;
+    height: 56px;
+    background-color: #f8cfd4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 22px;
+}
+
+.value-card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    font-size: 13px;
+    color: #374151;
+    line-height: 1.6;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
