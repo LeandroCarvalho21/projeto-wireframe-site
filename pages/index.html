@@ -65,7 +65,7 @@
 
     <section id="categoria">
 
-      <h2>Compre por Categoria</h2>
+      <h2 class="title_destaque">Compre por Categoria</h2>
       <h5>Encontre as melhores peças para cada idade</h5>
 
       <div class="cards">
@@ -97,7 +97,7 @@
     </section>
 
     <section id="destaque">
-      <h2>Produtos em Destaque</h2>
+      <h2 class="title_destaque">Produtos em Destaque</h2>
       <h5>Conheça nossos produtos mais vendidos</h5>
 
       <div id="cards_destaque">
@@ -108,36 +108,39 @@
             <img src="../img/WhatsApp Image 2025-12-12 at 14.11.42.jpeg" alt="">
 
             <div class="nova">
-              <h3>Novo</h3>
+              <h3 class="tag_novo">Novo</h3>
               <h3 class="porcentagem_desc">-31%</h3>
             </div>
 
             <div class="curti_add">
-              <p>❤</p>
-              <a href="#">Adicionar</a>
+              <button class="btn_like">
+                <img src="..//img/curtir.svg" alt="curti" class="img_like">
+              </button>
+
+              <button class="add_carrinho">Adicionar</button>
             </div>
 
           </div>
 
-          <h2>texto</h2>
+          <h2 class="title_card_destaque">Conjunto Casual</h2>
           <div class="preço">
-            <span class="preco_novo">R$:89,00</span>
-            <span class="preco_antigo">R$:109,90</span>
+            <span class="preco_novo">R$:89,90</span>
+            <span class="preco_antigo">R$:120,00</span>
           </div>
         </div>
 
         <div class="card_destaque">
           <div class="card_destaque_img">
-            <img src="../img/WhatsApp Image 2025-12-12 at 14.09.08 (1).jpeg" alt="">
+            <img src="../img/mel2.jpg" alt="">
             <h3>Novo</h3>
-            <h3 class="porcentagem_desc">-31%</h3>
+            <h3>-31%</h3>
             <p>❤</p>
-            <a href="http://">Adicionar</a>
+            <a href="#">Adicionar</a>
           </div>
 
-          <h2>texto</h2>
+          <h2 class="title_card_destaque">Macacão Vermelho</h2>
           <div class="preço">
-            <span class="preco_novo">R$:89,00</span>
+            <span class="preco_novo">R$:69,90</span>
             <span class="preco_antigo">R$:109,90</span>
           </div>
         </div>
@@ -148,20 +151,23 @@
             <img src="../img/WhatsApp Image 2025-12-12 at 14.09.08 (2).jpeg" alt="">
 
             <div class="nova">
-              <h3>Novo</h3>
-              <h3>-31%</h3>
+              <h3 class="tag_novo">Novo</h3>
+              <h3 class="porcentagem_desc">-20%</h3>
             </div>
 
             <div class="curti_add">
-              <p>❤</p>
-              <a href="#">Adicionar</a>
+              <button class="btn_like">
+                <img src="..//img/curtir.svg" alt="curti" class="img_like">
+              </button>
+
+              <button class="add_carrinho">Adicionar</button>
             </div>
           </div>
 
-          <h2>texto</h2>
+          <h2 class="title_card_destaque">Camiseta Estampada</h2>
           <div class="preço">
-            <span class="preco_novo">R$:89,00</span>
-            <span class="preco_antigo">R$:109,90</span>
+            <span class="preco_novo">R$:59,90</span>
+            <span class="preco_antigo">R$:89,90</span>
           </div>
         </div>
 
@@ -171,23 +177,62 @@
             <h3>Novo</h3>
             <h3 class="porcentagem_desc">-31%</h3>
             <p>❤</p>
-            <a href="http://">Adicionar</a>
+            <a href="#">Adicionar</a>
           </div>
 
-          <h2>texto</h2>
+          <h2 class="title_card_destaque">shorts jeans </h2>
           <div class="preço">
-            <span class="preco_novo">R$:89,00</span>
-            <span class="preco_antigo">R$:109,90</span>
+            <span class="preco_novo">R$:79,90</span>
+            <span class="preco_antigo">R$:99,90</span>
           </div>
         </div>
 
 
       </div>
 
-      <a href="#">Ver Todos os Produtos</a>
+      <a href="#" class="todos_produtos">Ver Todos os Produtos</a>
+    </section>
 
+
+    <section id="vantagens">
+
+      <aside>
+        <div class="icons_vantagens">
+          <img src="../img/delivery_truck_speed_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+            alt="carro como simbolo de frete gratis">
+        </div>
+
+        <h4>Frete Grátis</h4>
+        <h6>Em compras acima de R$ 199</h6>
+      </aside>
+
+      <aside>
+        <div class="icons_vantagens">
+          <img src="../img/lock_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="cadeado">
+        </div>
+        <h4>Compra Segura</h4>
+        <h6>100% protegida</h6>
+      </aside>
+
+      <aside>
+        <div class="icons_vantagens">
+          <img src="../img/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="estrela">
+        </div>
+        <h4>Qualidade Premium</h4>
+        <h6>Tecidos selecionados</h6>
+      </aside>
+
+      <aside>
+        <div class="icons_vantagens">
+          <img src="../img/headphones_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="headset">
+        </div>
+        <h4>Suporte 24/7</h4>
+        <h6>Sempre à disposição</h6>
+      </aside>
 
     </section>
+
+
   </main>
   <footer></footer>
 
