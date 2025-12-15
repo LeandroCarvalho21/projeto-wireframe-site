@@ -15,3 +15,4 @@ setInterval(() => {
   images[index].classList.add('ativa');
 }, 3000);
 
+
