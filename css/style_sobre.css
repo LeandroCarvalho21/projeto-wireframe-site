@@ -2,53 +2,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 }
+
+header {
+    background: #f7efe5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.borda_logo {
+    border-radius: 100%;
+    background-color: #f7c8d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+
+    display: flex;
+    align-items: center;
+    color: #d9b77c;
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+}
+
+nav ul li a {
+    color: #000;
+
+}
+
+nav ul li a:hover {
+    color: #d9b77c;
+
+}
+
 
 body {
     background-color: #f9f3ea;
     color: #1f2933;
 }
 
-/* HEADER */
-.header {
-    background: #fff3e6;
-    padding: 15px 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 18px;
-    color: #d9b77c;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.menu a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #1f2933;
-    font-size: 14px;
-}
-
-.icons {
-    font-size: 18px;
-}
-
 /* HERO */
 .hero {
     background: #f8cfd4;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
     padding: 70px 20px;
 }
 
 .hero h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 46px;
+    color: #000;
 }
 
 .hero p {
@@ -86,9 +130,10 @@ body {
 .miranha img {
     width: 450px;
     height: 560px;
-    object-fit: cover; /* mantém proporção sem distorcer */
+    object-fit: cover;
+    /* mantém proporção sem distorcer */
     border-radius: 18px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -104,6 +149,7 @@ body {
         max-width: 350px;
     }
 }
+
 /* ===== NOSSOS VALORES ===== */
 .values {
     background-color: #ffffff;
@@ -156,6 +202,85 @@ body {
     line-height: 1.6;
 }
 
+
+.nossa_jornada {
+    background-color: #f7c8d0;
+    padding: 64px 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.nossa_jornada h2 {
+    text-align: center;
+    font-size: 38px;
+
+
+}
+
+.nossa_jornada h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.cards_jornada {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 64px;
+
+}
+
+.card_jornada {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+.barra_divisao {
+    height: 800px;
+    width: 4px;
+    background-color: #d9b77c;
+
+}
+
+.card_group1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    /* background-color: aqua; */
+    height: 900px;
+    padding-bottom: 170px;
+    margin-right: 30px;
+
+}
+
+.card_group2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    /* background-color: rgb(4, 2, 144); */
+    height: 900px;
+    padding-top: 170px;
+    margin-left: 30px;
+    
+}
+
 /* RESPONSIVO */
 @media (max-width: 900px) {
     .values-grid {
@@ -169,4 +294,3 @@ body {
         grid-template-columns: 1fr;
     }
 }
-
