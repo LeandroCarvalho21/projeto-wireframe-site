@@ -58,6 +58,9 @@ h1 {
     display: flex;
     align-items: center;
     color: #d9b77c;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 nav ul {
@@ -119,7 +122,10 @@ nav ul li a:hover {
 
 .nova_colecao aside h2 {
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 3px 3px #6c6b6b;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 

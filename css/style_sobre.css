@@ -51,6 +51,9 @@ h1 {
     display: flex;
     align-items: center;
     color: #d9b77c;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 nav ul {
@@ -90,9 +93,13 @@ body {
     padding: 70px 20px;
 }
 
-.hero h1 {
-    font-size: 46px;
+.hero h2 {
     color: #000;
+    font-size: 50px;
+    text-shadow: 0px 3px 3px #6c6b6b;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .hero p {
@@ -131,23 +138,8 @@ body {
     width: 450px;
     height: 560px;
     object-fit: cover;
-    /* mantém proporção sem distorcer */
     border-radius: 18px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-}
-
-
-/* RESPONSIVO */
-@media (max-width: 900px) {
-    .content {
-        flex-direction: column;
-        padding: 40px 20px;
-    }
-
-    .image img {
-        width: 100%;
-        max-width: 350px;
-    }
 }
 
 /* ===== NOSSOS VALORES ===== */
@@ -226,7 +218,6 @@ body {
 
 
 .cards_jornada {
-    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -251,7 +242,6 @@ body {
     width: 4px;
     background-color: #d9b77c;
     position: relative;
-    /* referência para os filhos */
 }
 
 .cicle_barra {
@@ -293,7 +283,6 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 50px;
-    /* background-color: aqua; */
     height: 900px;
     padding-bottom: 170px;
     margin-right: 30px;
@@ -305,7 +294,6 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 50px;
-    /* background-color: rgb(4, 2, 144); */
     height: 900px;
     padding-top: 170px;
     margin-left: 30px;
@@ -362,7 +350,7 @@ body {
 
 
 footer {
-    background-color: #ffffff;
+    background-color: #F7C8D0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -420,17 +408,84 @@ footer h5 {
     font-weight: 200;
 }
 
-
-/* RESPONSIVO */
-@media (max-width: 900px) {
-    .values-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
+#pontos_positivos {
+    background-color: #6b7280;
 }
 
-@media (max-width: 500px) {
-    .values-grid {
-        grid-template-columns: 1fr;
-    }
+.cards_avalicao {
+    background-color: #F7EFE5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+}
+
+.cards_avalicao aside {
+    background-color: #fff;
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.cards_avalicao h3 {
+    color: #d9b77c;
+    font-weight: 100;
+}
+
+.cards_avalicao h5 {
+    color: #434343;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faca_parte_nossa_historia {
+    background-color: #FFFFFF;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.faca_parte_nossa_historia h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.faca_parte_nossa_historia h5 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+.faca_parte_nossa_historia a {
+    background-color: #d9b77c;
+    padding: 13px 25px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    color: #000;
+    box-shadow: 0px 0px 5px #4c4c4c;
+    font-weight: 700;
+    /* text-shadow: 0px 0px 1px rgb(0, 0, 0); */
+}
+
+.faca_parte_nossa_historia a:hover {
+    box-shadow: 0px 0px 10px #000;
+}
+
+#btn_entre_em_contato {
+    background-color: #F7C8D0;
+    color: #000000;
+}
+
+#btn_entre_em_contato:hover {
+    box-shadow: 0px 0px 10px #000;
+
 }
