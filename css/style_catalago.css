@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    background: #f7efe5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.borda_logo {
+    border-radius: 100%;
+    background-color: #f7c8d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon-mobile {
+    display: none;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+
+    display: flex;
+    align-items: center;
+    color: #d9b77c;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu_hamburguer {
+    display: none;
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+}
+
+nav ul li a {
+    color: #000;
+
+}
+
+nav ul li a:hover {
+    color: #d9b77c;
+
+}
+
