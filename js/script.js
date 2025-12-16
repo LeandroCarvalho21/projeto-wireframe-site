@@ -16,3 +16,19 @@ setInterval(() => {
 }, 3000);
 
 
+//menu hamburguer
+const menu = document.getElementById("menu");
+const close = document.getElementById("close");
+const nav = document.querySelector(".nav");
+
+menu.addEventListener("click", () => {
+  nav.style.display = "block";
+  menu.style.display = "none";
+  close.style.display = "block";
+});
+
+close.addEventListener("click", () => {
+  nav.style.display = "none";
+  menu.style.display = "block";
+  close.style.display = "none";
+});

@@ -17,16 +17,12 @@ header {
 .logo {
     display: flex;
     gap: 20px;
-
-
 }
 
 #logo {
     width: 40px;
     height: 40px;
     margin: 15px;
-
-
 }
 
 .borda_logo {
@@ -35,7 +31,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .icon {
@@ -46,11 +41,13 @@ header {
     gap: 5px;
 }
 
+.icon-mobile {
+    display: none;
+}
+
 .icon img {
     width: 30px;
     height: 30px;
-
-
 }
 
 h1 {
@@ -61,6 +58,10 @@ h1 {
     font-family: "Finger Paint", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.menu_hamburguer {
+    display: none;
 }
 
 nav ul {
@@ -126,14 +127,12 @@ nav ul li a:hover {
     font-family: "Finger Paint", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
 .nova_colecao aside h4 {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-
 }
 
 .nova_colecao aside a {
@@ -598,4 +597,197 @@ footer div {
 footer h5 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+}
+
+.rede_social {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img_rede_social {
+
+    width: 30px;
+}
+
+.img_rede_social1 {
+    width: 70px;
+}
+
+@media (max-width: 768px) {
+
+    /* ===== HEADER ===== */
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu_hamburguer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: #4a4a4a; */
+    }
+
+    #menu {
+        width: 40px;
+    }
+
+
+    #close {
+        display: none;
+        width: 40px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 16px;
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+        
+    }
+
+    /* ===== NOVA COLEÇÃO ===== */
+    .nova_colecao {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .icon-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        bottom: 0px;
+        text-align: center;
+        background-color: #ffffff;
+        z-index: 9999;
+
+    }
+
+    .icon-mobile img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    .carousel {
+        width: 100%;
+        max-width: 320px;
+        height: 420px;
+    }
+
+    .nova_colecao aside {
+        padding: 20px 10px;
+        align-items: center;
+    }
+
+    .nova_colecao aside h2 {
+        font-size: 32px;
+    }
+
+    /* ===== CATEGORIAS ===== */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+        height: 450px;
+    }
+
+    /* ===== DESTAQUES ===== */
+    #cards_destaque {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 0;
+    }
+
+    .card_destaque_img {
+        width: 260px;
+        height: 360px;
+    }
+
+    .title_destaque {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    #destaque h5 {
+        font-size: 16px;
+    }
+
+    /* ===== VANTAGENS ===== */
+    #vantagens {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 0;
+    }
+
+    #vantagens aside {
+        height: auto;
+        gap: 10px;
+    }
+
+    /* ===== NEWSLETTER ===== */
+    #nossas_novidades {
+        height: auto;
+        padding: 30px 10px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    #email {
+        width: 90%;
+        margin: 0;
+    }
+
+    #btn_inscrever-se {
+        width: 90%;
+        margin: 10px 0 0 0;
+    }
+
+    /* ===== FOOTER ===== */
+    footer div {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cads_footer {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rede_social {
+        display: flex;
+        flex-direction: row;
+        /* background-color: #6c6b6b; */
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
 }
