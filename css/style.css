@@ -121,7 +121,7 @@ nav ul li a:hover {
 }
 
 .nova_colecao aside h2 {
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 0px 3px 3px #6c6b6b;
     font-family: "Finger Paint", sans-serif;
     font-weight: 400;
@@ -129,17 +129,27 @@ nav ul li a:hover {
 }
 
 .nova_colecao aside h4 {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    font-size: 20px;
+    font-family: "Butterfly Kids", cursive;
+    font-weight: 300;
+    font-style: normal;
 }
 
-.nova_colecao aside a {
-    padding: 10px;
+.ver_colecao {
+    width: 200px;
+    padding: 10px 35px;
+    text-align: center;
+    background-color: #d9b77c;
     border-radius: 20px;
     display: inline;
     color: #fff;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.ver_colecao:hover {
+    box-shadow: 0px 0px 2px #4a4a4a94;
+    color: #ffffff;
 }
 
 .nova_colecao aside {
@@ -157,15 +167,6 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.coleçao_2025 {
-    width: 150px;
-    padding: 12px;
-    background-color: #d9b77c;
-    border-radius: 20px;
-    text-align: center;
-
-}
-
 .div_coleçao_2025 {
     width: 200px;
     padding: 12px;
@@ -175,10 +176,6 @@ nav ul li a:hover {
     box-shadow: 0px 5px 10px #000;
 }
 
-.coleçao_2025:hover {
-    box-shadow: 0px 0px 10px #f7efe5;
-    color: #d9b77c;
-}
 
 .img-card {
     width: 100%;
@@ -622,7 +619,7 @@ footer h5 {
         gap: 10px;
     }
 
-    h1{
+    h1 {
         font-size: 36px;
     }
 
@@ -655,7 +652,7 @@ footer h5 {
 
     nav ul li a {
         font-size: 25px;
-        
+
     }
 
     /* ===== NOVA COLEÇÃO ===== */
