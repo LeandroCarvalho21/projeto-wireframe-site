@@ -193,7 +193,7 @@ nav ul li a:hover {
 }
 
 #categoria {
-    background: #f7efe5;
+    background: #F7EFE5;
     padding: 50px 0px;
 }
 
@@ -231,6 +231,7 @@ nav ul li a:hover {
     padding: 20px;
     gap: 15px;
     transition: transform 0.7s ease;
+    box-shadow: 0px 2px 4px #4a4a4a;
 }
 
 .card:hover {
