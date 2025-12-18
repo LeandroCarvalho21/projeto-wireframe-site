@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style_catalago.css" />
   <title>Document</title>
 </head>
@@ -40,50 +43,48 @@
       <h2>Nosso Catálogo</h2>
       <p>Descubra as melhores peças para seus pequenos</p>
 
-      <section class="filtrar_produtos">
-        <form action="">
-          <fieldset>
-            <legend>Categoria</legend>
-            <label for="categoria">Escolha uma categoria</label>
-            <select name="categoria_pg_catalogo" id="categoria">
-              <option value=""> Todas as Categorias</option>
-              <option value="menino">Menino</option>
-              <option value="menina">Meninas</option>
-              <option value="recem_nascido">Bebês</option>
-            </select>
-          </fieldset>
+      <section>
+        <div class="filtro">
+          <div class="filter_icon_title">
+            <img src="../img/filter_alt_24dp_D9B77C_FILL0_wght400_GRAD0_opsz24.svg" alt="Filtro">
+            <h6>Filtrar Produtos</h6>
+          </div>
 
-          <fieldset>
-            <legend>Faixa de Preço</legend>
-            <label for="categoria">Escolha uma categoria</label>
-            <select name="categoria_pg_catalogo" id="categoria">
-              <option value=""> Todas as Categorias</option>
-              <option value="menino">Menino</option>
-              <option value="menina">Meninas</option>
-              <option value="recem_nascido">Bebês</option>
-            </select>
-          </fieldset>
+          <form action="">
+            <div class="filtros_categoria_preco">
+              <fieldset class="fieldset_catalogo">
+                <legend>Categoria</legend>
+                <label for="categoria">Escolha uma categoria</label>
+                <select name="categoria_pg_catalogo" id="categoria">
+                  <option value=""> Todas as Categorias</option>
+                  <option value="menino">Menino</option>
+                  <option value="menina">Meninas</option>
+                  <option value="recem_nascido">Bebês</option>
+                </select>
+              </fieldset>
 
-
-
-
-
-        </form>
-
-
-
+              <fieldset class="fieldset_catalogo">
+                <legend>Faixa de Preço</legend>
+                <label for="categoria">Escolha uma faixa de preço</label>
+                <select name="categoria_pg_catalogo" id="categoria">
+                  <option value=""> Todas os Preços</option>
+                  <option value="menino">Até R$:60,00</option>
+                  <option value="menina">R$:60,00 - R$:100,00</option>
+                  <option value="recem_nascido">Acima de R$:100,00</option>
+                </select>
+              </fieldset>
+            </div>
+          </form>
+        </div>
       </section>
-
-
-
-
-
 
     </div>
 
 
   </main>
 
+
+  <script src="../js/script.js"></script>
 
 </body>
 
